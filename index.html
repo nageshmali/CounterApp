@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+    <!-- Top Level Div -->
+    <div class="wrapper h-screen w-screen bg-[#344151] flex items-center justify-center">
+
+        <!-- Center Div -->
+        <div class="centreDiv items-center justify-center p-10">
+            
+            <!-- heading -->
+            <div>
+                <p class="text-xl text-[#0398D4] font-semibold">Increment and Decrement Counter</p>
+            </div>
+
+
+            <!-- Counter -->
+            <div class="bg-white rounded-xl mt-5 flex justify-around py-3 items-center w-64 ml-6">
+
+                <button class="decre">
+                    <i class="fa fa-minus text-[#344151]" style="font-size:24px"></i>
+                </button>
+
+                <!-- <div class="content text-4xl text-[#344151] font-semibold -mt-[8px]">0</div> -->
+                <div class="font-semibold text-4xl text-[#344151] -mt-[8px]">
+                    <fontsninja-text id="fontsninja-text-5" class="content fontsninja-family-variant_system-ui_700_normal">0</fontsninja-text>
+                </div>
+
+                <button class="incre">
+                    <i class="fa fa-plus text-[#344151]" style="font-size:24px"></i>
+                </button>
+            </div>
+
+
+            <!-- Reset -->
+            <button class="reset text-xl text-[#0398D4] font-semibold mt-5 ml-32">
+                Reset
+            </button>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
